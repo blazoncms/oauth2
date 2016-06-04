@@ -1,5 +1,5 @@
 {
-    "name": "blazoncms/oath2",
+    "name": "blazoncms/oauth2",
     "description": "Integration package for the league/oauth2-server with the Blazon CMS",
     "type": "library",
     "homepage": "https://github.com/blazoncms/oauth2",
