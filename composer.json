@@ -1,0 +1,26 @@
+{
+    "name": "blazoncms/oath2",
+    "description": "Integration package for the league/oauth2-server with the Blazon CMS",
+    "type": "library",
+    "homepage": "https://github.com/blazoncms/oauth2",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Westin Shafer",
+            "email": "shafer_w2002@yahoo.com"
+        }
+    ],
+    "require": {
+        "blazoncms/core": "dev-master",
+        "league/oauth2-server": "^5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "squizlabs/php_codesniffer": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "BlazonCms\\OAuth2\\": "src"
+        }
+    }
+}
