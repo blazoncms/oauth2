@@ -11,6 +11,7 @@
         }
     ],
     "require": {
+        "zendframework/zend-component-installer": "^0.3.0",
         "blazoncms/core": "dev-master",
         "league/oauth2-server": "^5.0"
     },
@@ -24,5 +25,8 @@
         "psr-4": {
             "BlazonCms\\OAuth2\\": "src"
         }
-    }
+    },
+    "zf": {
+        "config-provider": "BlazonCms\\OAuth2\\Core"
+    },
 }
