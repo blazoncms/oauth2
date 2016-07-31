@@ -28,7 +28,7 @@
     },
     "extra": {
         "zf": {
-            "config-provider": "BlazonCms\\OAuth2\\Core"
+            "config-provider": "BlazonCms\\OAuth2\\Module"
         }
     }
 }
