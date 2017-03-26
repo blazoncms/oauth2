@@ -3,12 +3,12 @@
 return [
     'doctrine' => [
         'driver' => [
-            'orm_vcms' => [
+            'orm_blazon_cms' => [
                 'drivers' => [
-                    'BlazonCms\OAuth2\Entity' => 'vcms',
+                    'BlazonCms\OAuth2\Entity' => 'bcms',
                 ],
             ],
-            'vcms' => [
+            'bcms' => [
                 'paths' => [__DIR__ . '/../src/Entity'],
             ],
         ],
